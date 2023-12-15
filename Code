@@ -1,8 +1,8 @@
 --1. How many pubs are located in each country??
-```SELECT Country, 
+SELECT Country, 
 	   COUNT(*) as no_of_pubs
 FROM pubs
-group by country;```
+group by country;
 
 2. What is the total sales amount for each pub, including the beverage price and quantity sold?
 with cte as (
